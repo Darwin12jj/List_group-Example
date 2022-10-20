@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/fb421a811f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>List Groups Example</title>
+</head>
+<body>
+
+    <!--LIST GROUP 1 -->
+    <div class="container d-flex justify-content-center">
+        <ul class="list-group">
+            <a href="#" class="list-group-item list-group-item-action py-3 d-flex gap-3">
+                <img src="imgs/bootstrap-logo.png" alt="bootstrap-logo" class="rounded-circle" style="width: 32px; height: 32px;">
+                <div class="d-flex justify-content-between gap-4">
+                    <div>
+                        <h6 class="mb-0">List group item heading</h6>
+                        <p class="opacity-75 mb-0">Some placeholder content in a paragraph.</p>
+                    </div>
+                    <small class="opacity-50 ms-4 ps-1">now</small>
+                </div>
+            </a>
+
+            <a href="#" class="list-group-item list-group-item-action py-3 d-flex gap-3">
+                <img src="imgs/bootstrap-logo.png" alt="bootstrap-logo" class="rounded-circle" style="width: 32px; height: 32px;">
+                <div class="d-flex justify-content-between gap-3">
+                    <div>
+                        <h6 class="mb-0">Another title here</h6>
+                        <p class="opacity-75 mb-0">Some placeholder content in a paragraph that goes a little longer so it wraps to a new line.</p>
+                    </div>
+                    <small class="opacity-50">3d</small>
+                </div>
+            </a>
+
+            <a href="#" class="list-group-item list-group-item-action py-3 d-flex gap-3">
+                <img src="imgs/bootstrap-logo.png" alt="bootstrap-logo" class="rounded-circle" style="width: 32px; height: 32px;">
+                <div class="d-flex justify-content-between gap-5">
+                    <div>
+                        <h6 class="mb-0">Third heading</h6>
+                        <p class="opacity-75 mb-0">Some placeholder content in a paragraph.</p>
+                    </div>
+                    <small class="opacity-50 ms-3">1w</small>
+                </div>
+            </a>
+        </ul>
+    </div>
+
+    <div class="space"></div>
+
+    <!--LIST GROUP 2 -->
+    <div class="container d-flex flex-column flex-md-row gap-2">
+        <div class="list-group  me-md-3">
+            <label class="list-group-item d-flex gap-2">
+                <input type="checkbox" class="form-check-input flex-shrink-0">
+                <span>
+                    First checkbox
+                    <small class="d-block text-muted">With support text underneath to add more detail</small>
+                </span>
+            </label>
+            <label class="list-group-item d-flex gap-2">
+                <input type="checkbox" class="form-check-input flex-shrink-0">
+                <span>
+                    Second checkbox
+                    <small class="d-block text-muted">Some other text goes here</small>
+                </span>
+            </label>
+            <label class="list-group-item d-flex gap-2">
+                <input type="checkbox" class="form-check-input flex-shrink-0">
+                <span>
+                    Third checkbox
+                    <small class="d-block text-muted">And we end with another snippet of text</small>
+                </span>
+            </label>
+        </div>
+
+        <div class="list-group ms-md-4">
+            <label class="list-group-item d-flex gap-2">
+                <input type="radio" class="form-check-input flex-shrink-0">
+                <span>
+                    First radio
+                    <small class="d-block text-muted">With support text underneath to add more detail</small>
+                </span>
+            </label>
+            <label class="list-group-item d-flex gap-2">
+                <input type="radio" class="form-check-input flex-shrink-0">
+                <span>
+                    Second radio
+                    <small class="d-block text-muted">Some other text goes here</small>
+                </span>
+            </label>
+            <label class="list-group-item d-flex gap-2">
+                <input type="radio" class="form-check-input flex-shrink-0">
+                <span>
+                    Third radio
+                    <small class="d-block text-muted">And we end with another snippet of text</small>
+                </span>
+            </label>
+        </div>
+    </div>
+
+    <div class="space"></div>
+
+    <!--LIST GROUP 3 -->
+
+    <div class="container">
+        <div class="list-group">
+            <label class="list-group-item d-flex gap-3">
+                <input type="checkbox" class="form-check-input" value style="font-size: 22px;">
+                <div class="pt-1">
+                    <strong>Finish sales report</strong>
+                    <div class="text-muted">
+                        <i class="fa-regular fa-calendar col-1 me-2"></i>
+                        <small>1:00-2:00p.m.</small>
+                    </div>
+                </div>
+            </label>
+
+            <label class="list-group-item d-flex gap-3">
+                <input type="checkbox" class="form-check-input" value style="font-size: 22px;">
+                <div class="pt-1">
+                    <strong>Weekly All Hands</strong>
+                    <div class="text-muted">
+                        <i class="fa-regular fa-calendar col-1 me-2"></i>
+                        <small>2:00-2:30p.m.</small>
+                    </div>
+                </div>
+            </label>
+
+            <label class="list-group-item d-flex gap-3">
+                <input type="checkbox" class="form-check-input" value style="font-size: 22px;">
+                <div class="pt-1">
+                    <strong>Out of office</strong>
+                    <div class="text-muted">
+                        <i class="fa-regular fa-clock col-1 me-2"></i>
+                        <small>Tomorrow</small>
+                    </div>
+                </div>
+            </label>
+
+            <label class="list-group-item d-flex gap-3 bg-light disabled" >
+                <input type="checkbox" class="form-check-input bg-light" value style="font-size: 22px;">
+                <div class="pt-1">
+                    <span class="text-dark">Add new task...</span>
+                    <div class="text-muted">
+                        <i class="fa-solid fa-list col-1 me-2 mt-1 fa-xs"></i>
+                        <small>Choose list...</small>
+                    </div>
+                </div>
+            </label>
+        </div>
+    </div>
+
+    <!-- LIST-GROUP 4 -->
+
+    <div class="space"></div>
+
+    <div class="container">
+        <div class="list-group list-group-checkable gap-2">
+            <input type="radio" name="listGroupCheckableRadios" class="list-group-item list-group-item-check " id="listGroupCheckableRadios1" value checked>
+            <label for="listGroupCheckableRadios1" class="list-group-item rounded-2 list-group-item-action py-3 border">
+                <p class="mb-0">First radio</p>
+                <small class="opacity-50">With support text underneath to add more details</small>
+            </label>
+
+
+
+            <input type="radio" name="listGroupCheckableRadios" class="list-group-item list-group-item-check " id="listGroupCheckableRadios2" value checked>
+            
+            <label for="listGroupCheckableRadios2" class="list-group-item rounded-2 list-group-item-action py-3 border">
+                <p class="mb-0">Second radio</p>
+                <small class="opacity-50">Some other text goes here</small>
+            </label>
+
+
+
+            <input type="radio" name="listGroupCheckableRadios" class="list-group-item list-group-item-check " id="listGroupCheckableRadios3" value checked>
+            
+            <label for="listGroupCheckableRadios3" class="list-group-item rounded-2 list-group-item-action py-3 border">
+                <p class="mb-0">Third radio</p>
+                <small class="opacity-50">And we end with another snippet of text</small>
+            </label>
+
+
+            <input type="radio" name="listGroupCheckableRadios" class="list-group-item list-group-item-check " id="listGroupCheckableRadios4" value disabled>
+            
+            <label for="listGroupCheckableRadios4" class="list-group-item rounded-2 disabled list-group-item-action py-3 border">
+                <p class="mb-0 opacity-50">Fourth disable radio</p>
+                <small class="opacity-50">This option is disabled</small>
+            </label>
+        </div>
+    </div>
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
